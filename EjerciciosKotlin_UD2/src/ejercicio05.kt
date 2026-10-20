@@ -1,5 +1,5 @@
 fun ejercicio05() {
-    println("Introduce un número: ")
+    print("Introduce un número: ")
     val num = readln().toInt() //Se pasa directamente a Int
 
     if (num % 2 == 0) {

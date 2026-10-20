@@ -1,12 +1,12 @@
 fun ejercicio14() {
     //Número de ventas
-    println("Introduzca el número de ventas realizadas este mes: ")
+    print("Introduzca el número de ventas realizadas este mes: ")
     val ventas = readln().toInt()
     var sum = 0.0 //<- Inicializamos la suma de las ventas
     var contVent = 1;
 
     do {
-        println("Introduzca la venta $contVent/$ventas: ")
+        print("Introduzca la venta $contVent/$ventas: ")
         val cant = readln().toDouble()
         sum += cant //Va sumando las cantidades
         contVent ++ //Contador de ventas

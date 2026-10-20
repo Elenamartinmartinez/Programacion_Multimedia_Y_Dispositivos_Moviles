@@ -1,9 +1,9 @@
 fun ejercicio04() {
     //Pedir 2 números por pantalla
-    println("Introduce tu primer número: ")
+    print("Introduce tu primer número: ")
     val num1 = readln()
     val n1 : Int = num1.toInt() //Lo pasamos de String a Int
-    println("Introduce tu segundo número: ")
+    print("Introduce tu segundo número: ")
     val num2 = readln()
     val n2 : Int = num2.toInt()
 

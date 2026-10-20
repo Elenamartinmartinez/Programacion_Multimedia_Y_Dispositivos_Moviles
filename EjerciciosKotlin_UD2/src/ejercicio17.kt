@@ -1,6 +1,6 @@
 fun ejercicio17() {
     //Pedir una cadena de texto por pantalla
-    println("Introduce una cadena de texto: ")
+    print("Introduce una cadena de texto: ")
     val cadena = readln()
 
     //Contadores de cada caracter que esté en la cadena de texto

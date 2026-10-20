@@ -3,7 +3,7 @@ fun ejercicio15() {
     var contVent = 1
 
     while (true) { //Pedimos ventas por pantalla
-        println("Introduzca la venta $contVent (introduce * para terminar): ")
+        print("Introduzca la venta $contVent (introduce * para terminar): ")
         val ventas = readln().trim()
 
         if (ventas == "*") {

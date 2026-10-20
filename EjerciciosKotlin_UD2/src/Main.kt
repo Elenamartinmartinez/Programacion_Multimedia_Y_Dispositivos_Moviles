@@ -25,6 +25,16 @@ fun main() {
             16 -> ejercicio16()
             17 -> ejercicio17()
             18 -> ejercicio18()
+            19 -> ejercicio19()
+            20 -> ejercicio20()
+            21 -> ejercicio21()
+            22 -> ejercicio22()
+            23 -> ejercicio23()
+            24 -> ejercicio24()
+            25 -> ejercicio25()
+            26 -> ejercicio26()
+            27 -> ejercicio27()
+            28 -> ejercicio28()
             else -> println("Ejercicio no válido")
         }
 

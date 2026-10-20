@@ -1,5 +1,5 @@
 fun ejercicio03() {
-    println("Introduce tu nombre: ")
+    print("Introduce tu nombre: ")
     //Variable para pedir nombre
     val nombre = readln()
 

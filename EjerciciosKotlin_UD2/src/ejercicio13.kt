@@ -1,6 +1,6 @@
 fun ejercicio13() {
     //Pedir un día de la semana por pantalla
-    println("Introduce un día de la semana: ")
+    print("Introduce un día de la semana: ")
     val d = readln().lowercase()
 
     when (d) {

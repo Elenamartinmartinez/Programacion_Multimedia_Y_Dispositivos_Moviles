@@ -1,6 +1,6 @@
 fun ejercicio12() {
     //Pedir un mes por pantalla
-    println("Introduce un mes (con el número del 1 al 12): ")
+    print("Introduce un mes (con el número del 1 al 12): ")
     val mes = readln().toInt()
 
     //Dependiendo del número pasará o que muestre el mes o no
