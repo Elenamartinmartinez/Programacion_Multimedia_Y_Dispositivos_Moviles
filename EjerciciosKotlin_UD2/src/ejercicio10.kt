@@ -1,11 +1,11 @@
 fun ejercicio10() {
     print("Introduce un número: ")
-    val num = readln().toInt()
+    var num = readln().toInt()
 
     while(num < 0) { //El número no puede ser menor a 0, seguir pidiendo en caso de que de un número así
         println("$num es menor a 0...")
         print("Introduce un número: ")
-        val num = readln().toInt()
+        num = readln().toInt()
     }
 
     if (num > 0) { //En caso de que el número sea mayor

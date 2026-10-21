@@ -3,17 +3,17 @@ fun ejercicio11() {
     var intentos = 2 //Número de intentos para introducir la clave
 
     print("Introduzca la contraseña: ")
-    val intento = readln()
-
-    if (intento != clave) {
-        do {
+    var intento = readln()
+    do {
+        if (!(intento.equals(clave))) {
             intentos--
             println("Contraseña incorrecta...")
-            println("Introduza la contraseña: ")
-            val intento = readln()
-        } while (intentos > 0)
+            print("Introduza la contraseña: ")
+            intento = readln()
+        }
+    } while (intentos > 0&&intento != clave)
 
-    } else if (intento == clave) {
+    if (intento == clave) {
         println("¡Bienvenido!")
     }
 }
