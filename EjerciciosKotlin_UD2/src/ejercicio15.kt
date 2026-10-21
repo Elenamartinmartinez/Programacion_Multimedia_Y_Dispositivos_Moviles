@@ -13,8 +13,7 @@ fun ejercicio15() {
         sum += ventas.toDouble() //Si la venta es válida se suma
         contVent ++ //Si la venta es válida, el contador añade 1 más
     }
-
-    //mostrar resultados por pantalla
-    println("Ventas introducidas: [$contVent]")
-    println("Suma total de las ventas: [$sum]")
+    //Mostrar resultado por pantalla
+    val resultado = "%.2f".format(sum) //Formatea la suma con dos decimales
+    println("Suma de las ventas realizadas este mes: [$resultado]") //Muestra la suma por pantalla
 }

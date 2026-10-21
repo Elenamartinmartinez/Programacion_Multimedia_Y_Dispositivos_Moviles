@@ -3,7 +3,7 @@ fun ejercicio06() {
     println("a. Paris")
     println("b. Roma")
     println("c. Madrid")
-    println("a. Buenos Aires")
+    println("d. Buenos Aires")
     print("Opción: ")
     var op = readln()
 

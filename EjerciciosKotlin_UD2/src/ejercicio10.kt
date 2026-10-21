@@ -9,7 +9,7 @@ fun ejercicio10() {
     }
 
     if (num > 0) { //En caso de que el número sea mayor
-        println("$num es mayor a 0")
+        println("$num")
     } else if (num == 0) { //En caso de que el número sea igual
         println("$num es 0")
     }
