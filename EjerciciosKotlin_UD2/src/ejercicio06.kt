@@ -1,20 +1,18 @@
 fun ejercicio06() {
-    println("¿Cuál es la capital de España?")
-    println("a. Paris")
-    println("b. Roma")
-    println("c. Madrid")
-    println("d. Buenos Aires")
-    print("Opción: ")
-    var op = readln()
-
-    while (op != "c") { //Seguirá preguntando hasta que la respuesta sea la correcta
-        println("La respuesta no es correcta...")
-        println("¿Cuál es la capital de España?: ")
+    var op: String
+    do {
+        println("¿Cuál es la capital de España?")
+        println("a. La Paz")
+        println("b. Buenos Aires")
+        println("c. Madrid")
+        println("d. Bogotá")
+        print("Opción: ")
         op = readln()
-    }
 
-    //Lo que saldrá por pantalla cuando la respuesta sea correcta
-    if (op == "c") {
-        println("¡Felicitaciones!")
-    }
+        if (op != "c") {
+            println("La respuesta no es correcta...") //Se vuelve a preguntar
+        }
+    } while (op != "c") //Seguirá preguntando hasta que la respuesta sea la correcta
+
+    println("¡Felicitaciones!") //Solo se llega aquí cuando la respuesta es correcta
 }

@@ -1,20 +1,18 @@
 fun ejercicio11() {
     val clave = "pato" //Clave que no se le mostrará al usuario
     var intentos = 3 //Número de intentos para introducir la clave
+    var acertado = false
 
-    print("Introduzca la contraseña: ")
-    var intento = readln()
     do {
-        if (!(intento.equals(clave))) {
-            intentos--
-            println("Contraseña incorrecta...")
-            println("Intentos restantes [$intentos]")
-            print("Introduza la contraseña: ")
-            intento = readln()
-        }
-    } while (intentos > 0&&intento != clave)
+        print("Introduzca la contraseña: ")
+        val intento = readln()
 
-    if (intento == clave) {
-        println("¡Bienvenido!")
-    }
+        if (intento == clave) {
+            acertado = true
+            println("Enhorabuena, acertaste")
+        } else {
+            intentos--
+            println("Has fallado. Te quedan $intentos intentos")
+        }
+    } while (intentos > 0 && !acertado) //Termina si acierta o si se acaban los intentos
 }
